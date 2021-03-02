@@ -1,0 +1,131 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+header {
+    height: 50px;
+    background-color: royalblue;    
+}
+
+#bodySection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#searchSection {
+    margin: 20px;
+    position: relative;      
+}
+
+#searchBar {
+    position: relative;
+    font-size: 2rem;    
+    padding: 5px 5px 5px 45px;   
+    margin: 0 15px 0 0;   
+    width: 40ch;      
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: gray; 
+}
+
+#searchButton{
+    position: relative;    
+    width: 7ch;
+    font-size: 1.8rem;
+    background-color: royalblue;
+    color: white;
+    border-width: 0;
+    border-radius: 5px;
+    padding: 6px;
+}
+
+#searchIMG {
+    position: absolute;    
+    top: 5px;
+    left: 10px;
+    color: gray;
+}
+
+
+
+#daysSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dayOfWeek {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px 30px;
+    width: 20ch;    
+    margin: 12px 55px;
+    background-color: gray;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.textDay, .dateDay {
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    line-height: 1.5;    
+}
+
+.selectedDay {
+    background-color: royalblue;
+}
+
+.hidden {
+    display: none;
+}
+
+#weatherSection {    
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 15px;    
+}
+
+.hourlyLI {   
+    font-size: 1.8rem;
+    list-style: none;
+    margin-right: 25px;   
+}
+
+.twoLineContainer {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;           
+    margin: 0 7% 0 0;    
+    text-align: center;        
+}
+
+.textHour {
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.weatherIco {
+    width: 15%;
+    height: 15%;
+    vertical-align: bottom;
+    margin: -35px 25px 0 0;        
+}
+
+.textWeather {
+    font-size: 1.2em;
+    vertical-align: bottom;    
+    margin: 0 5% 0 0;    
+    width: 100%;
+}
+
+.textDescr {
+    font-size: 1em;
+    margin: 0 0 20% 0;   
+    width: 8ch;
+}
